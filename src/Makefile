@@ -23,7 +23,8 @@ include sys/sys.mk
 SRCS = \
 sys/syscalls.c \
 main.c \
-sys/startup_stm32l476rgtx.s
+sys/startup_stm32l476rgtx.s \
+my_math.c
 
 OBJS := $(SRCS:%=$(OUT_DIR)/%.o)
 
